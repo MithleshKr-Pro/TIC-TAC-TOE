@@ -1,0 +1,94 @@
+*{
+    text-align: center;
+}
+.btn{
+    width:16vmin;
+    height: 16vmin;
+    background-color: rgba(137, 191, 238, 0.555); 
+    color: rgb(0, 0, 0);
+    padding: 2vmin;
+    margin: 2vmin;
+    border-radius:0.3em;
+    border: none;
+    font-size: 9vmin;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: max-content;
+}
+.parent_div{
+    /* left: 50%;
+    transform: translate(-50%,10%);
+    position: absolute;  */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-self: center;
+    width: 50vmin;
+    height: 70vmin;
+
+}
+body{
+    
+    background: linear-gradient(rgba(100, 203, 223, 0.365),rgba(255,255,255,0.32));
+}
+.winnerMssg{
+    padding: 5vmin;
+    margin: 2vmin;
+    border-radius: 0.8rem;
+    background-color:rgba(183, 222, 235, 0.32);
+    backdrop-filter: blur(5px);
+    color:rgb(255, 0, 0);
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    box-shadow: 0 1em 1em rgba(102, 108, 16, 0.787);
+    position: absolute;
+    width: fit-content;
+    left: 50%;
+    transform:translate(-50%,10vmin);
+    text-shadow: 0 0 6vmin rgba(101, 222, 131, 0.787);
+}
+.gameCtrls{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.gameBtns{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: max-content;
+}
+#reset{
+    margin: 4vmin 3vmin 0vmin 0;
+    border-radius: 0.5rem;
+    border:none;
+    background-color: rgb(84, 149, 229);
+    color: white;
+    font-size: large;
+    padding: 3vmin;
+}
+.newGame{
+    margin: 4vmin 1vmin 0em 4vmin;
+    border-radius: 0.5rem;
+    border:none;
+    background-color: rgb(84, 149, 229);
+    color: white;
+    font-size: large;
+    padding: 3vmin;
+    display: none;
+}
+.hide{
+    margin: 4vmin 1vmin 0em 4vmin;
+    border-radius: 0.5rem;
+    border:none;
+    background-color: rgb(84, 149, 229);
+    color: white;
+    font-size: large;
+    padding: 3vmin;
+}
